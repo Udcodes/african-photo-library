@@ -1,0 +1,24 @@
+.search-header {
+  width: 100%;
+  min-height: 20vh;
+  background-color: #b3b3b3;
+}
+.search-container {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  /* background-color: #b3b3b3; */
+  /* width: 100%; */
+}
+.search-icon {
+  padding: 0.5rem;
+}
+.search-box {
+  width: 40%;
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
